@@ -1,3 +1,3 @@
-self.addEventListener('message', function(e) {
-  self.postMessage(e.data);
+addEventListener('message', function(e) {
+  postMessage(e.data);
 }, false);
